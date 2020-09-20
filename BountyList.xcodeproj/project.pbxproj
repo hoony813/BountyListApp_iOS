@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		140B3CA32517683A00C5A30D /* BountyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140B3CA22517683A00C5A30D /* BountyInfo.swift */; };
+		140B3CA6251780A900C5A30D /* BountyInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 140B3CA5251780A900C5A30D /* BountyInfo.swift */; };
 		14B178B92504F677003B47C8 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14B178B82504F677003B47C8 /* DetailViewController.swift */; };
 		14BD60D624FBCA7D0056326B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BD60D524FBCA7D0056326B /* AppDelegate.swift */; };
 		14BD60D824FBCA7D0056326B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14BD60D724FBCA7D0056326B /* SceneDelegate.swift */; };
@@ -18,7 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		140B3CA22517683A00C5A30D /* BountyInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BountyInfo.swift; sourceTree = "<group>"; };
+		140B3CA5251780A900C5A30D /* BountyInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BountyInfo.swift; sourceTree = "<group>"; };
 		14B178B82504F677003B47C8 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		14BD60D224FBCA7D0056326B /* BountyList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BountyList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		14BD60D524FBCA7D0056326B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -44,7 +44,6 @@
 		14BD60C924FBCA7D0056326B = {
 			isa = PBXGroup;
 			children = (
-				140B3CA22517683A00C5A30D /* BountyInfo.swift */,
 				14BD60D424FBCA7D0056326B /* BountyList */,
 				14BD60D324FBCA7D0056326B /* Products */,
 			);
@@ -61,6 +60,7 @@
 		14BD60D424FBCA7D0056326B /* BountyList */ = {
 			isa = PBXGroup;
 			children = (
+				140B3CA5251780A900C5A30D /* BountyInfo.swift */,
 				14BD60D524FBCA7D0056326B /* AppDelegate.swift */,
 				14BD60D724FBCA7D0056326B /* SceneDelegate.swift */,
 				14BD60E924FBCB4C0056326B /* BountyViewController.swift */,
@@ -100,7 +100,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1160;
-				LastUpgradeCheck = 1160;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = hoony813;
 				TargetAttributes = {
 					14BD60D124FBCA7D0056326B = {
@@ -144,10 +144,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				140B3CA32517683A00C5A30D /* BountyInfo.swift in Sources */,
 				14BD60EA24FBCB4C0056326B /* BountyViewController.swift in Sources */,
 				14BD60D624FBCA7D0056326B /* AppDelegate.swift in Sources */,
 				14BD60D824FBCA7D0056326B /* SceneDelegate.swift in Sources */,
+				140B3CA6251780A900C5A30D /* BountyInfo.swift in Sources */,
 				14B178B92504F677003B47C8 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -200,6 +200,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -260,6 +261,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
