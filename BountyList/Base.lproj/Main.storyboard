@@ -149,8 +149,10 @@
                     </view>
                     <connections>
                         <outlet property="bountyLabel" destination="eZf-4E-XGf" id="FtG-BW-i32"/>
+                        <outlet property="bountyLabelCenterX" destination="xS4-kv-A4B" id="TLv-DI-dG9"/>
                         <outlet property="imgView" destination="vnO-cn-YeU" id="14C-rd-Sre"/>
                         <outlet property="nameLabel" destination="v3t-zy-wyN" id="j76-CG-B4p"/>
+                        <outlet property="nameLabelCenterX" destination="RnD-7A-2B6" id="6Qu-EF-XCZ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ADt-bF-cHg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
